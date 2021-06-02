@@ -21,7 +21,7 @@ public class SongApp {
 		info02.setTrack(2);
 		
 		Song info03 = new Song();
-		info03.setTitle("벗꽃엔딩");
+		info03.setTitle("벚꽃엔딩");
 		info03.setArtist("버스커버스커");
 		info03.setAlbum("버스커버스커1집");
 		info03.setComposer("장범준");
