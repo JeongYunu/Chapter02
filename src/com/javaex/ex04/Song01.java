@@ -13,7 +13,7 @@ public class Song01 {
 	private int track;
 	 */
 	
-	//메소드
+	//메소드 
 	
 	//세터
 	public void setInfo(String title, String artist, String album, String composer, int year, int track){

@@ -14,7 +14,7 @@ public class SongApp01 {
 		info03.setInfo("벚꽃엔딩", "버스커버스커", "버스커버스커1집", "장범준", 2012, 4);
 		
 		info01.showInfo();
-		info02.showInfo();
+		info02.showInfo(); 
 		info03.showInfo();
 		
 		/*

@@ -15,7 +15,7 @@ public class SongApp {
 		Song info02 = new Song();
 		info02.setTitle("거짓말");
 		info02.setArtist("BIGBANG");
-		info02.setAlbum("Always");
+		info02.setAlbum("Always"); 
 		info02.setComposer("G-DRAGON");
 		info02.setYear(2007);
 		info02.setTrack(2);
