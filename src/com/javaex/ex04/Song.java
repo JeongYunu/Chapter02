@@ -55,7 +55,7 @@ public class Song {
 	
 	//출력
 	public void showInfo() {
-		System.out.println(artist + ", " + title + " ( " + album + ", " + year + ", " + track + "번 track, " + artist + " 작곡 )");
+		System.out.println(artist + ", " + title + " ( " + album + ", " + year + ", " + track + "번 track, " + composer + " 작곡 )");
 	}
 	
 	
