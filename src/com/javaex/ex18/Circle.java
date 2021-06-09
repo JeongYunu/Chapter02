@@ -1,4 +1,4 @@
-package com.javaex.ex17;
+package com.javaex.ex18;
 
 public class Circle extends Shape{
 	
@@ -27,7 +27,7 @@ public class Circle extends Shape{
 	//메소드-일반
 	@Override
 	public String toString() {
-		return "Rectangle [+radius=" + radius + ", fillColor=" + fillColor + ", lineColor="
+		return "Circle [radius=" + radius + ", fillColor=" + fillColor + ", lineColor="
 				+ lineColor + "]";
 	}
 	
@@ -36,7 +36,9 @@ public class Circle extends Shape{
 				"[면색:" + fillColor + ", 선색:" + lineColor + ", 반지름:" + radius + "] 원을 그렸습니다. ");
 	}
 	
-	
+	public double area() {
+		return radius*radius*3.14;
+	}
 	
 	
 	

@@ -1,4 +1,4 @@
-package com.javaex.ex17;
+package com.javaex.ex18;
 
 public class Rectangle extends Shape{
 
@@ -49,4 +49,11 @@ public class Rectangle extends Shape{
 		System.out.println(
 				"[면색:" + fillColor + ", 선색:" + lineColor + ", 가로:" + width + ", 세로:" + height + "] 사각형을 그렸습니다. ");
 	}
+	
+	public double area() {
+		return width*height;
+	}
+	
+	
+	
 }
